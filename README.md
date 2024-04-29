@@ -21,11 +21,27 @@ This project is a web application that allows users to search for publications o
 1. Clone the repository:\
 git clone <repository-url>
 
-3. Navigate to the project directory:\
+2. Navigate to the project directory:\
 cd pubmed-publication-search
 
-4. Install dependencies:\
+3. Install dependencies:\
 cd frontend\
 npm install\
 cd ../backend\
 pip install -r requirements.txt
+
+4. Start the backend server:/
+cd backend/
+uvicorn main:app --reload
+
+5. Start the frontend development server:/
+cd frontend/
+npm start
+
+6. Open your browser and go to `http://localhost:3000` to access the application.
+
+## Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+
