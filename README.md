@@ -18,14 +18,14 @@ This project is a web application that allows users to search for publications o
 
 ## Setup Instructions
 
-1. Clone the repository:
-/n git clone <repository-url>
+1. Clone the repository:\
+git clone <repository-url>
 
-2. Navigate to the project directory:
+3. Navigate to the project directory:\
 cd pubmed-publication-search
 
-3. Install dependencies:
-cd frontend
-npm install
-cd ../backend
+4. Install dependencies:\
+cd frontend\
+npm install\
+cd ../backend\
 pip install -r requirements.txt
